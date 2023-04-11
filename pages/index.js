@@ -4,15 +4,10 @@ export default function Home() {
       {/* left side */}
       <div className="lg:w-1/2 relative z-10 flex flex-col justify-center px-10 lg:px-20 py-20 lg:py-0 text-left">
         <h2 className="inter text-4xl mb-3 font-bold text-gray-800">
-          Welcome to Your Next.js App{" "}
-          <span className="block text-blue-500 text-2xl font-normal">
-            Deployed to DigitalOcean
-          </span>
+          Welcome to Your Next.js App <span className="block text-blue-500 text-2xl font-normal">DARKHAA END BAIW HELLO GUYS</span>
         </h2>
 
-        <p className="text-gray-700 mb-6">
-          Deploy API routes, static frontend, databases, and more.
-        </p>
+        <p className="text-gray-700 mb-6">Deploy API routes, static frontend, databases, and more.</p>
 
         <div className="sm:flex">
           <a
@@ -21,10 +16,7 @@ export default function Home() {
           >
             View the Docs
           </a>
-          <a
-            href="https://cloud.digitalocean.com/apps"
-            className="block py-2 px-5 rounded shadow bg-blue-500 text-blue-100"
-          >
+          <a href="https://cloud.digitalocean.com/apps" className="block py-2 px-5 rounded shadow bg-blue-500 text-blue-100">
             View Your Dashboard
           </a>
         </div>
@@ -40,11 +32,7 @@ export default function Home() {
           <polygon points="50,0 100,0 50,100 0,100"></polygon>
         </svg>
 
-        <img
-          src="/background.jpg"
-          alt="Ocean Image"
-          className="lg:absolute object-cover lg:inset-y-0 lg:right-0 lg:h-full lg:w-full"
-        />
+        <img src="/background.jpg" alt="Ocean Image" className="lg:absolute object-cover lg:inset-y-0 lg:right-0 lg:h-full lg:w-full" />
       </div>
     </div>
   );
